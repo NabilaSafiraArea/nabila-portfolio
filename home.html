@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-black fw-bold" href="#">Nabila Safira</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+  <section class="container my-5" id="home">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="images/Mask group.png" alt="Illustration" class="img-fluid illustration">
+      </div>
+      <div class="col-md-6">
+        <h1 style="font-weight: inherit;">"Creativity is intelligence</h1>
+        <h1 style="font-weight: inherit;">   having fun."</h1>
+      <div class="mt-4 text-center">
+        <p class="quote">— Albert Einstein</p>
+        <button id="aboutmeBtn">say hi!</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+<section class="container my-5" id="aboutme">
+  <div class="row align-items-center">
+    <div class="col-md-6 text-center">
+      <h2 class="display-4">Hi My Pookie!</h2>
+    </div>
+    <div class="col-md-6 text-md-start text-center">
+      <h4 class="right-aligned">
+        I am Nabila Safira, a passionate beginner in UI/UX design and frontend development, actively learning to enhance my skills in creating visually appealing and user-friendly interfaces.
+      </h4>
+      <h4 class="right-aligned">
+        With a growing interest in coding and digital design, I am committed to developing creative solutions that combine aesthetics with functionality.
+      </h4>
+    </div>
+  </div>
+</section>
+
+
+<!-- Portfolio Section -->
+<section class="container my-5" id="portfolio">
+  <div class="text-center">
+    <h1 class="text-uppercase text-muted" style="font-size: x-large;">Some of My Latest Work</h>
+  </div>
+  <div class="row align-items-center mt-4">
+    <div class="col-md-6">
+      <h2 class="portfolio-title">portfolio</h2>
+      <blockquote class="portfolio-quote">
+        "I have many interests and try to develop my skills in various activities, I am still trying to improve my skills more deeply."
+      </blockquote>
+      <h1 class="portfolio-subtitle">check out some of my latest works</h1>
+    </div>
+    <div class="col-auto book-image">
+      <img src="images/slang-to-the-moon.png" alt="Rocket Illustration" class="img-fluid portfolio-image">
+    </div>
+  </div>
+</section>
+
+<!--project-->
+<h1 class="text-center" style="font-weight: bold;">my project</h1>
+<br>
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">carevul</h5>
+        <p class="card-text">consult your healthy</p>
+        <button class="card-button" onclick="window.location.href='https://carevul-five.vercel.app/'">Click Me</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">nextvul cafe</h5>
+        <p class="card-text">see if you want to find awesome thing</p>
+        <button class="card-button" onclick="window.location.href='https://nextvulcafe.netlify.app/'">Click Me</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--book content-->
+<div class="container my-5">
+  <div class="row d-flex align-items-center">
+    <!-- Content Section -->
+    <div class="col book-content">
+      <h2>my book</h2>
+      <p>
+        Before entering the world of design, web graphics, and getting to know more about the frontend world, I loved writing.
+        Writing is one of the activities that has become my routine until now. One of my achievements is successfully publishing a novel
+        entitled “For You My Dear Alpha” on the Dreame platform.
+      </p>
+      <a class="transition" href="https://www.dreame.com/id/story/63249920-for-you--my-dear-alpha">Read my book</a>
+    </div>
+        <!-- Image Section -->
+        <div class="col-auto book-image">
+          <img src="https://files.dreame.com/images/0c755bff4f65ee446b88abb1fcb141f4/1973747.jpg@208w_300h_2e_53287592837a.webp" alt="For You My Dear Alpha book cover">
+        </div>
+      </div>
+  </div>
+</div>
+<!--
+link cover: https://files.dreame.com/images/0c755bff4f65ee446b88abb1fcb141f4/1973747.jpg@208w_300h_2e_53287592837a.webp 
+link: https://www.dreame.com/id/story/63249920-for-you--my-dear-alpha-->
+
+<!-- Random Fact -->
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-5 text-main">
+      <h2 class="mb-2">random fact!</h2>
+      <p class="mt-1">I love drinking coffee but can't stand the bitter taste, but I just found out that the cappuccino at Tomoro is bitter! I couldn't finish it, I had tremors at flat</p>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<!-- Wrapper -->
+<div class="container text-center mt-5">
+  <h2 class="mb-4" id="contact">let's connect with me!</h2>
+</div>
+<div class="phone-wrapper position-relative mx-auto" id="contact">
+  <img src="images/live-broadcast.png" class="img-fluid phone-image" alt="Phone Illustration">
+
+  <!-- WA -->
+  <a href="https://wa.me/62895612429349" class="social-icon position-absolute whatsapp">
+    <img src="images/whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/nabila-safira-sibuea-54958621a/" class="social-icon position-absolute linkedin">
+    <img src="images/linkedin.png" alt="LinkedIn" />
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/NabilaSafiraArea" class="social-icon position-absolute github">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+  </a>
+
+  <!-- IG -->
+  <a href="https://www.instagram.com/nbilsfr" class="social-icon position-absolute instagram">
+    <img src="images/instagram.png" alt="Instagram" />
+  </a>
+</div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+  <script>
+    document.getElementById('aboutmeBtn').addEventListener('click', function() {
+            document.getElementById('aboutme').scrollIntoView({ behavior: 'smooth' });
+        });
+  </script>
+  
+</body>
+</html>

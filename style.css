@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: poppins, sans-serif;
+}
+
+.nav-link {
+  font-weight: 400; 
+  margin-right: 15px; 
+}
+
+.illustration {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.quote {
+  color: #757575;
+}
+
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #ffffff;;
+  cursor: pointer;
+  border: 0px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.btn-outline-dark {
+  border: 1px solid black;
+  color: black;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .illustration {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  blockquote {
+    font-size: 20px;
+  }
+
+  .btn-outline-dark {
+    font-size: 14px;
+  }
+}
+
+#aboutme {
+  font-family: poppins, sans-serif;
+  color: #333;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#aboutme p {
+  color: #333;
+}
+.right-aligned {
+  text-align: justify; 
+  line-height: 1.6; 
+  margin: 2px; 
+  font-size: 1rem; 
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  #aboutme p {
+    font-size: 0.9rem;
+  }
+}
+
+/*porto*/
+#portfolio {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.text-uppercase {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.portfolio-subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.portfolio-quote {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 15px;
+}
+
+.portfolio-image {
+  max-width: 80%;
+  transition: transform 0.5s ease-in-out; /* Tambahkan transisi untuk transformasi */
+}
+
+.portfolio-image:hover {
+  transform: rotate(360deg); /* Membuat gambar berputar 360 derajat */
+}
+
+@media (max-width: 768px) {
+  .portfolio-title {
+    font-size: 2rem;
+  }
+
+  .portfolio-subtitle, .portfolio-quote {
+    font-size: 0.9rem;
+  }
+  .portfolio-image {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.book-content {
+  text-align: left;
+  padding: 20px;
+  
+}
+
+.book-image img{
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+
+}
+.book-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: lowercase;
+  
+}
+.book-content p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.transition {
+  transition: all 0.3s ease; 
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .book-content {
+    margin-top: 10px; 
+  }
+}
+
+/* Styling utama untuk bagian "random fact" */
+.text-main {
+  background-color: #f9f9f9; 
+  padding: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  color: #555; /* Warna teks yang lebih lembut */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .text-main {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+
+/*kontak*/
+.phone-wrapper {
+  width: 300px;
+  height: 600px;
+  position: relative;
+}
+
+/* ponsel */
+.phone-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transform: translateY(110px);
+}
+
+
+/* Stylin ikon */
+.social-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon img {
+  max-width: 50%;
+  height: auto;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* positioning */
+.whatsapp {
+  top: 20%;
+  left: -25%;
+}
+
+.linkedin {
+  bottom: 20%;
+  left: -25%;
+}
+
+.github {
+  top: 20%;
+  right: -25%;
+}
+
+.instagram {
+  bottom: 20%;
+  right: -25%;
+}
+
+/*khusus img*/
+img {
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out; 
+}
+
+/* Efek hover pada semua gambar */
+img:hover {
+  transform: translateY(-10px) scale(1.05); 
+}
+
+/*perbaikan*/
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .col-md-6, .col-5, .col-7 {
+      padding-bottom: 15px;
+  }
+}
+
+.nav-link {
+  padding: 10px;
+}
+
+* {
+  border: 2px red;
+}
+
+/*project*/ 
+/* From Uiverse.io by alexruix */ 
+.card {
+  border-radius: 20px;
+  background: none;
+  position: relative;
+  padding: 1.8rem;
+  border: 0.5empx solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  font: poppins;
+ }
+ 
+ .card-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: black;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text-body {
+  color: #f9f9f9;
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .card:hover {
+  border-color: black;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1
+ }
