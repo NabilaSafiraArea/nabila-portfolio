@@ -142,7 +142,6 @@ button:active {
 }
 
 .book-content {
-  text-align: left;
   padding: 20px;
   
 }
@@ -189,7 +188,7 @@ h2 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555; /* Warna teks yang lebih lembut */
 }
 
@@ -207,7 +206,6 @@ p {
     font-size: 0.95rem;
   }
 }
-
 
 /*kontak*/
 .phone-wrapper {
@@ -269,7 +267,7 @@ p {
   right: -25%;
 }
 
-/*khusus img*/
+/*img*/
 img {
   height: auto;
   display: block;
@@ -303,9 +301,6 @@ img:hover {
   padding: 10px;
 }
 
-* {
-  border: 2px red;
-}
 
 /*project*/ 
 /* From Uiverse.io by alexruix */ 
